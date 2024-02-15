@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-10">
+<div class="flex mb-10 flex-col gap-10">
     <div class="flex justify-between">
         <div class="flex flex-col gap-6 max-w-96">
             <div class="flex flex-col gap-1">

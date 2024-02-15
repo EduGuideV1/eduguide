@@ -19,6 +19,8 @@
 <body class="font-sans antialiased w-full flex flex-col items-center">
     <div class="w-full max-w-[1422px]">
         @include('partials.nav')
+        @include('partials.hero')
+        @include('partials.numbers')
         @include('partials.footer')
     </div>
     {{-- <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
