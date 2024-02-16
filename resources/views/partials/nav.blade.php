@@ -1,4 +1,4 @@
-<div class="mt-10 h-[73px] flex items-center justify-between">
+<div class="mt-10 mb-20 h-[73px] flex items-center justify-between">
     <a href="/">
         <img class="w-[73px] h-[73px]" src="{{ asset('assets/images/logo.png') }}" alt="">
     </a>
