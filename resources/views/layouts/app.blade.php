@@ -16,12 +16,19 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased w-full flex flex-col items-center">
+<body class="w-full flex flex-col items-center">
     <div class="w-full max-w-[1422px]">
         @include('partials.nav')
         @include('partials.hero')
         @include('partials.numbers')
-        @include('partials.footer')
+        @include('partials.avantages')
+        @include('partials.steps')
+        @include('partials.contact')
+    </div>
+    <div class="w-full bg-secondary flex flex-col items-center">
+        <div class="max-w-[1422px] w-full mt-20">
+            @include('partials.footer')
+        </div>
     </div>
     {{-- <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')

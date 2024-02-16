@@ -5,7 +5,7 @@
             universités les plus
             adaptées à vos ambitions éducatives, dans de nombreux pays à travers le monde.</p>
         <button
-            class="bg-primary font-medium text-white py-4 px-4 rounded-tr-3xl rounded-bl-3xl w-fit">Commencer</button>
+            class="bg-secondary font-medium text-white py-4 px-4 rounded-md w-fit">Commencer</button>
     </div>
     <img class="w-[666px] h-[518px]" src="{{ asset('assets/images/hero.png') }}" alt="">
 </div>
