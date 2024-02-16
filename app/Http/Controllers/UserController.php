@@ -6,13 +6,13 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-   
+
     public function index()
     {
         return view('formule.stage_one');
     }
 
-   
+
     public function stageOne(Request $request)
     {
         $request->validate([
@@ -30,15 +30,17 @@ class UserController extends Controller
     {
         $request->validate([
             'education_level' => 'required',
-            'pays'=>'required',
+            'pays' => 'required',
             'formation' => 'required',
         ]);
 
         // Store the data in session or database
-        session(['education_level' => $request->education_level,
-                 'pays'            => $request->pays,
-                 'formation'       => $request->formation]);
-        
-        return redirect('/home');
+        session([
+            'education_level' => $request->education_level,
+            'pays'            => $request->pays,
+            'formation'       => $request->formation
+        ]);
+
+        return redirect()->route("homepage");
     }
 }

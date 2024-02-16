@@ -27,7 +27,7 @@
                 <div class="flex flex-col">
                     <label class="font-bold text-lg mb-2" for="message">Message</label>
                     <textarea
-                        class="pl-7 max-h-32 resize-none py-3 font-medium rounded-lg mb-1 focus:outline-none focus:border-black focus:ring-offset-0 focus:ring-0 placeholder:duration-500 focus:placeholder:opacity-0 transition-opacity"
+                        class="pl-7 h-28 max-h-44 resize-none py-3 font-medium rounded-lg mb-1 focus:outline-none focus:border-black focus:ring-offset-0 focus:ring-0 placeholder:duration-500 focus:placeholder:opacity-0 transition-opacity"
                         name="message" placeholder="Entrez votre message" id="message"></textarea>
                 </div>
                 <button class="bg-secondary he font-medium text-white py-3 px-4 rounded-md">

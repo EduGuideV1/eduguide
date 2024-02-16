@@ -15,13 +15,13 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('layouts.app');
-});
+})->name("homepage");
 
 Route::get('/formule', [UserController::class, 'index']);
-Route::post('/stage-one',[UserController::class, 'stageOne']);
-Route::post('/stage-two',[UserController::class, 'stageTwo']);
+Route::post('/stage-one', [UserController::class, 'stageOne']);
+Route::post('/stage-two', [UserController::class, 'stageTwo']);
 
 
 Route::get('/dashboard', function () {
@@ -34,4 +34,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

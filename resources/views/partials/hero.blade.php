@@ -4,8 +4,8 @@
         <p class="text-xl">EduGuide simplifions le processus d'études à l'étranger en vous offrant un accès aux
             universités les plus
             adaptées à vos ambitions éducatives, dans de nombreux pays à travers le monde.</p>
-        <button
-            class="bg-secondary font-medium text-white py-4 px-4 rounded-md w-fit">Commencer</button>
+        <a href="/formule"
+            class="bg-secondary font-medium text-white py-4 px-4 rounded-md w-fit">Commencer</a>
     </div>
     <img class="w-[666px] h-[518px]" src="{{ asset('assets/images/hero.png') }}" alt="">
 </div>
