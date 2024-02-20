@@ -16,20 +16,16 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="w-full flex flex-col items-center">
-    <div class="w-full max-w-[1422px]">
-        @include('partials.nav')
-        @include('partials.hero')
-        @include('partials.numbers')
-        @include('partials.avantages')
-        @include('partials.steps')
-        @include('partials.contact')
-    </div>
-    <div class="w-full bg-secondary flex flex-col items-center">
-        <div class="max-w-[1422px] w-full mt-20">
-            @include('partials.footer')
-        </div>
-    </div>
+<body class="w-full flex flex-col items-center overflow-x-hidden">
+    @include('partials.nav')
+    @include('partials.hero')
+    @include('partials.numbers')
+    @include('partials.avantages')
+    @include('partials.steps')
+    @include('partials.slider')
+    @include('partials.contact')
+    @include('partials.footer')
+
     {{-- <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
 
@@ -47,6 +43,7 @@
                 {{ $slot }}
             </main>
         </div> --}}
+    <script src="{{ asset('assets/script.js') }}"></script>
 </body>
 
 </html>
