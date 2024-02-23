@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+    @include('partials.hero')
+    @include('partials.numbers')
+    @include('partials.avantages')
+    @include('partials.steps')
+    @include('partials.slider')
+    @include('partials.contact')
+@endsection

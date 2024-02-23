@@ -1,6 +1,6 @@
-<div class="bg-secondary w-full ">
-    <div class="w-[1420px] flex flex-col gap-10 m-auto mb-8 mt-20">
-        <div class="flex justify-between text-white">
+<div class="bg-secondary w-full">
+    <div class="md:w-[992px] lg:w-[1420px] flex flex-col gap-10 m-auto mb-8 mt-20">
+        <div class="flex md:flex-row flex-col justify-between text-white flex-wrap mx-5 gap-5">
             <div class="flex flex-col gap-6 max-w-96">
                 <div class="flex flex-col gap-3">
                     <svg class="w-14 h-10 fill-white" viewBox="0 0 57 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,8 +13,7 @@
             </div>
             <div class="flex flex-col gap-6 max-w-96">
                 <div class="flex flex-col gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 fill-white"
-                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 fill-white" viewBox="0 0 512 512">
                         <path
                             d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
                     </svg>
@@ -27,8 +26,7 @@
             </div>
             <div class="flex flex-col gap-6 max-w-96">
                 <div class="flex flex-col gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-12 fill-white"
-                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-12 fill-white" viewBox="0 0 384 512">
                         <path
                             d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
                     </svg>
@@ -40,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-between items-center">
+        <div class="flex sm:flex-row flex-col-reverse gap-3 justify-between items-center mx-5">
             <span class="text-xl text-white">Tout les Droits Réserves à Élite Post-Bac</span>
             <div class="flex gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 cursor-pointer fill-white" viewBox="0 0 448 512">

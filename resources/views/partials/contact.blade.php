@@ -1,11 +1,11 @@
-<div id="contact" class="flex flex-col gap-16 mb-20">
+<div id="contact" class="flex md:w-[992px] lg:w-[1420px] mx-5 flex-col gap-16 mb-20">
     <div class="flex gap-5 justify-center items-center">
-        <div class="w-24 border-2 rounded-sm h-0 border-secondary"></div>
+        <div class="w-24 hidden sm:block border-2 rounded-sm h-0 border-secondary"></div>
         <div class="font-bold text-secondary text-[40px]">Contactez nous</div>
-        <div class="w-24 border-2 rounded-sm h-0 border-secondary"></div>
+        <div class="w-24 hidden sm:block border-2 rounded-sm h-0 border-secondary"></div>
     </div>
-    <div class="flex gap-40 justify-between items-center">
-        <div class="flex flex-col w-[670px] gap-7">
+    <div class="flex gap-20 lg:gap-40 justify-between flex-col-reverse lg:flex-row items-center">
+        <div class="flex flex-col gap-7 w-full">
             <h1 class="font-bold text-4xl">Obtenez une consultation gratuite maintenant</h1>
             <form class="flex flex-col gap-4">
                 <p class="text-lg">
@@ -35,6 +35,6 @@
                 </button>
             </form>
         </div>
-        <img class="w-[660px] h-[369px] rounded-md" src="{{ asset('assets/images/consultation.jpg') }}" alt="">
+        <img class="lg:w-[660px] h-[369px] w-full hidden md:block object-cover object-center rounded-md" src="{{ asset('assets/images/consultation.jpg') }}" alt="">
     </div>
 </div>
