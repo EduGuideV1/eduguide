@@ -15,15 +15,23 @@ use App\Http\Controllers\UserController;
 |
 */
 
+
+// Homepage
 Route::get('/', function () {
-    return view('layouts.app');
+    return view('pages.homepage');
 })->name("homepage");
 
+// Test Page
+Route::get('/personality_test', function () {
+    return view('pages.personality_test');
+})->name("test");
+
+// Form
 Route::get('/formule', [UserController::class, 'index']);
 Route::post('/stage-one', [UserController::class, 'stageOne']);
 Route::post('/stage-two', [UserController::class, 'stageTwo']);
 
-
+// Dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
