@@ -4,9 +4,9 @@
         <div class="font-bold text-secondary text-[40px] text-center">Destinations favorites</div>
         <div class="w-24 hidden sm:block border-2 rounded-sm h-0 border-secondary"></div>
     </div>
-    <div id="sliderContainer" class="relative select-none">
+    <div id="sliderContainer" class="relative">
         <img src="{{ asset('storage/pays/spain.png') }}"
-            class="sm:h-auto h-[500px] object-cover rounded-[10px] slider-img" alt="Image de pays">
+            class="select-none sm:h-auto h-[500px] object-cover rounded-[10px] slider-img" alt="Image de pays">
         <div
             class="flex sm:justify-between items-center w-full absolute justify-center text-white z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <svg xmlns="http://www.w3.org/2000/svg"
